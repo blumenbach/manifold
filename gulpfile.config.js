@@ -5,7 +5,7 @@ var GulpConfig = (function () {
         this.name = metadata.name;
         // libs that MUST be included in a consuming app for this component to work
         this.deps = [
-            'node_modules/manifesto.js/dist/client/manifesto.bundle.js'
+            'node_modules/manifesto/dist/client/manifesto.bundle.js'
         ];
         // libs that MAY be included in a consuming app but are used here for examples purposes
         this.examplesDeps = [
